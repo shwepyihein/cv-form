@@ -1,0 +1,250 @@
+ body ,html{
+     width:  1000px;
+     height: 6000px;
+     font-family:'Open Sans', 'Roboto', sans-serif;
+     margin: 0;
+     padding: 0;
+    color :black;
+    box-sizing: border-box;
+    
+ }
+ * {
+  box-sizing: border-box;
+}
+ h1,h2,h3,h4,h5,h6,p{
+   margin: 0;
+   padding: 0;
+ }
+
+.page-container{
+  position: relative;
+    background: white;
+    width:700px ;
+    height: 950px;
+    display: flex;    
+    justify-content: flex-start;
+    margin: 30px;
+    -webkit-box-shadow: 7px 2px 45px -24px rgba(0,1,0,1);
+    -moz-box-shadow: 7px 2px 45px -24px rgba(0,1,0,1);
+    box-shadow: 7px 2px 45px -24px rgba(0,1,0,1);
+}
+
+.page-left{    
+    width:250px;
+    border-right: 3px solid #2A7A79;
+    padding: 10px;
+    margin:25px 0px ;
+}
+.profile{    
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;      
+}
+.circular{
+    width: auto;
+    height: 100%;    
+}
+.top{
+  text-align: center;
+}
+.name{
+  margin-top: 10px;
+  font-size: 14px;
+}
+.name h1,h3{
+  margin: 0;
+}
+.name h1{
+  font-family: 'Roboto';
+}
+
+.personal-info {
+  padding: 10px;
+}
+.personal-container{
+  display: flex;
+  height: 50px;
+  padding: 10px;
+}
+
+.icon{
+  padding: 10px;
+  color :#2A7A79;
+  font-size: 25px;
+}
+.info{
+  padding: 10px;
+}
+.info p{
+  font-size: 10px;
+}
+.software-skill{
+  display: flex;
+  justify-content: flex-start;
+  padding: 2px;
+  margin-top: 2px;
+}
+.skill h5{
+  font-size: 12px;
+}
+.skillbar{
+  width: 60%;
+  background-color: #ddd;
+  margin-left: 10px;  
+}
+
+.skillbar-line{
+  background: #2A7A79;
+}
+
+.language-skill .skill{
+  padding:3px;
+
+}
+.language-skill .skillbar{
+    width: 100%;
+}
+
+.page-right{
+  padding: 10px;
+}
+.about h2{
+  padding: 10px;
+  font-size: 20px;
+}
+.about p{
+  padding-left:10px ;
+}
+.about{
+  padding-bottom: 30px;
+  border-bottom: 2px solid #2A7A79;
+}
+.eduation-top{
+  display: flex;
+  padding: 10px;
+}
+.eduation-top i{
+    color: #2A7A79;
+    font-size: 40px;    
+}
+.eduation-top h2{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.eduation-skill{
+  margin:10px 0px;
+  display: flex;
+  padding-left: 10px;
+}
+.degree{
+  padding-left: 10px;
+}
+.eduation-skill .date{
+  width: 40%;
+  padding-left: 10px;
+}
+.degree p{
+  font-size: 10px;
+}
+.eduation{
+  padding-bottom:30px ;
+  border-bottom: 2px solid #2A7A79 ;
+}
+
+.exe-top{
+  display: flex;
+  padding: 10px;
+}
+.exe-top i{
+    color: #2A7A79;
+    font-size: 40px;    
+}
+.exe-top h2{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.timeline {
+  width: 100%;
+  max-width: 800px;
+  background: #fff;
+  padding: 10px 10px;
+  position: relative;
+ 
+}
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: calc(29% + 12px);
+  bottom: 0px;
+  width: 4px;
+  background: #2A7A79;
+}
+.timeline:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.font-change{
+  
+  font-family: 'Roboto';
+}
+.entry {
+  padding: 5px;
+  clear: both;
+  text-align: left;
+  position: relative;
+  display: flex;
+  
+}
+.entry .title {
+  float: left;
+  width: 33%;
+  padding-right: 20px;
+  text-align: right;
+  position: relative;
+}
+.entry .title:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 3px solid #2A7A79;
+  background-color: #2A7A79;
+  border-radius: 100%;
+  top: 15%;
+  right: 1px;
+  z-index: 99;
+}
+
+.entry-body{
+  margin: 0;
+  padding-left: 10px;
+  
+}
+li{
+  font-size: 10px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li::before {
+  content: "\2022";
+  color: #2A7A79;
+  font-weight: bold;
+  display: inline-block; 
+  width: 10px;
+  
+}
+
+
+
